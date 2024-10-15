@@ -62,7 +62,7 @@ Pod::Spec.new do |s|
 
   # AdMob dependencies
   if !ENV['MAC_CATALYST']
-  s.dependency          'Google-Mobile-Ads-SDK', google_mobile_ads_sdk_version
+  s.dependency          'Google-Mobile-Ads-SDK', '11.10.0'
   end
 
   if defined?($RNGoogleMobileAdsAsStaticFramework)
